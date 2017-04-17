@@ -1,0 +1,7 @@
+Java test task.
+
+This program replaces default (or custom) port in Apache httpd config file httpd.conf to user-defined.
+
+Example:
+$ java PortChanger /what/ever/httpd.conf 12345 				#change default 80 port to 12345
+$ java PortChanger /what/ever/httpd.conf 8088 12345 		#change custom 8088 port to 12345
